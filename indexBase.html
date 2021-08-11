@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DB-Movies</title>
+    <link rel="icon" type="image/png" href="pics/favicon.png" sizes="32x32" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+  </head>
+
+  <body>
+
+    <div class="searcher">
+
+      <div class="head-searcher">
+        <div class="db-logo"></div>
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Find you info" aria-label="Search your info" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-light" type="button">Search</button>
+        </div>
+      </div>
+
+      <div class="search-container">
+        <div class="categories">
+          <div class="category-item selected-category">
+            <p>Movies</p>
+          </div>
+          <div class="category-item">
+            <p>TV Shows</p>
+          </div>
+          <div class="category-item">
+            <p>People</p>
+          </div>
+        </div>
+
+        <div id="movies-block" class="showcase-items">
+
+          <div class="section-item">
+
+            <div class="pic-item"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">The Incredibles</div>
+                <div class="date-item">2004-11-05</div>
+              </div>
+
+              <p class="overview-item">Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.</p>
+
+              <div class="see-more" onclick="myRes()">More</div>
+
+            </div>
+
+          </div>
+
+          <div class="section-item">
+
+            <div class="pic-item"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">The Incredibles</div>
+                <div class="date-item">2004-11-05</div>
+              </div>
+
+              <p class="overview-item">Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.</p>
+
+              <div class="see-more" onclick="myRes()">More</div>
+
+            </div>
+
+          </div>
+
+          <div class="section-item">
+
+            <div class="pic-item"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">The Incredibles</div>
+                <div class="date-item">2004-11-05</div>
+              </div>
+
+              <p class="overview-item">Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.</p>
+
+              <div class="see-more" onclick="myRes()">More</div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="tv-block" class="showcase-items" style="display: none">
+
+          <div class="section-item">
+
+            <div class="pic-item2"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">How I Met Your Mother</div>
+                <div class="date-item">2005-09-19</div>
+              </div>
+
+              <p class="overview-item">How I Met Your Mother is an American sitcom that originally aired on CBS from September 19, 2005, to March 31, 2014. The series follows the main character, Ted Mosby, and his group of friends in Manhattan. As a framing device, Ted, in the year 2030, recounts to his son and daughter the events that led to his meeting their mother.</p>
+
+              <div class="see-more" onclick="myRes()">More</div>
+
+            </div>
+
+          </div>
+
+          <div class="section-item">
+
+            <div class="pic-item2"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">How I Met Your Mother</div>
+                <div class="date-item">2005-09-19</div>
+              </div>
+
+              <p class="overview-item">How I Met Your Mother is an American sitcom that originally aired on CBS from September 19, 2005, to March 31, 2014. The series follows the main character, Ted Mosby, and his group of friends in Manhattan. As a framing device, Ted, in the year 2030, recounts to his son and daughter the events that led to his meeting their mother.</p>
+
+              <div class="see-more" onclick="myRes()">More</div>
+
+            </div>
+
+          </div>
+
+          <div class="section-item">
+
+            <div class="pic-item2"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">How I Met Your Mother</div>
+                <div class="date-item">2005-09-19</div>
+              </div>
+
+              <p class="overview-item">How I Met Your Mother is an American sitcom that originally aired on CBS from September 19, 2005, to March 31, 2014. The series follows the main character, Ted Mosby, and his group of friends in Manhattan. As a framing device, Ted, in the year 2030, recounts to his son and daughter the events that led to his meeting their mother.</p>
+
+              <div class="see-more" onclick="myRes()">More</div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="person-block" class="showcase-items" style="display: none">
+
+          <div class="section-item">
+
+            <div class="pic-item3"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">Ashton Kutcher</div>
+                <!-- <div class="date-item">2005-09-19</div> -->
+              </div>
+
+              <p class="birth-item">Cedar Rapids, Iowa, USA ( 1978-02-07 / death(null) )</p>
+
+              <p class="overview-item">Christopher Ashton Kutcher known as Ashton Kutcher, is an American actor, producer, former fashion model and comedian, best known for his portrayal of Michael Kelso in the Fox sitcom That '70s Show. He also created, produced and hosted Punk'd, and played lead roles in the Hollywood films Dude, Where's My Car?, Just Married, The Butterfly Effect, The Guardian, and What Happens in Vegas. He is also the producer and co-creator of the supernatural TV show Room 401 and the reality TV show Beauty and the Geek.</p>
+
+              <p class="also-known-item">Also known by "The Butterfly Effect" - "No Strings Attached" - "Jobs"</p>
+
+              <!-- <div class="see-more" onclick="myRes()">More</div> -->
+
+            </div>
+
+          </div>
+
+          <div class="section-item">
+
+            <div class="pic-item3"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">Ashton Kutcher</div>
+                <!-- <div class="date-item">2005-09-19</div> -->
+              </div>
+
+              <p class="birth-item">Cedar Rapids, Iowa, USA ( 1978-02-07 / death(null) )</p>
+
+              <p class="overview-item">Christopher Ashton Kutcher known as Ashton Kutcher, is an American actor, producer, former fashion model and comedian, best known for his portrayal of Michael Kelso in the Fox sitcom That '70s Show. He also created, produced and hosted Punk'd, and played lead roles in the Hollywood films Dude, Where's My Car?, Just Married, The Butterfly Effect, The Guardian, and What Happens in Vegas. He is also the producer and co-creator of the supernatural TV show Room 401 and the reality TV show Beauty and the Geek.</p>
+
+              <p class="also-known-item">Also known by "The Butterfly Effect" - "No Strings Attached" - "Jobs"</p>
+
+              <!-- <div class="see-more" onclick="myRes()">More</div> -->
+
+            </div>
+
+          </div>
+
+          <div class="section-item">
+
+            <div class="pic-item3"></div>
+
+            <div class="contain-item">
+
+              <div class="head-item">
+                <div class="title-item">Ashton Kutcher</div>
+                <!-- <div class="date-item">2005-09-19</div> -->
+              </div>
+
+              <p class="birth-item">Cedar Rapids, Iowa, USA ( 1978-02-07 / death(null) )</p>
+
+              <p class="overview-item">Christopher Ashton Kutcher known as Ashton Kutcher, is an American actor, producer, former fashion model and comedian, best known for his portrayal of Michael Kelso in the Fox sitcom That '70s Show. He also created, produced and hosted Punk'd, and played lead roles in the Hollywood films Dude, Where's My Car?, Just Married, The Butterfly Effect, The Guardian, and What Happens in Vegas. He is also the producer and co-creator of the supernatural TV show Room 401 and the reality TV show Beauty and the Geek.</p>
+
+              <p class="also-known-item">Also known by "The Butterfly Effect" - "No Strings Attached" - "Jobs"</p>
+
+              <!-- <div class="see-more" onclick="myRes()">More</div> -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="resulter-search" class="resulter">
+      <div id="closer-result" class="close-resulter">X</div>
+
+      <div class="head-resulter">
+        <p>The Incredibles</p>
+      </div>
+
+      <div class="item-resulter">
+
+        <div class="sub-head">
+          <div class="vote-items">
+            <div class="vote-average">7.5</div>
+            <p>score</p>
+          </div>
+
+          <div class="date-ref">2004-11-05</div>
+        </div>
+
+        <div class="genres-item">Action - Adventure - Animation - Family</div>
+
+        <div class="overview-item">
+          <p>Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.</p>
+        </div>
+
+        <a id="trailer-btn" href="#media-popup" class="btn-video">Trailer</a>
+
+        <div id="media-popup" class="popup">
+            <iframe src="https://www.youtube.com/embed/eZbzbC9285I" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="resulter-search" class="resulter">
+      <div id="closer-result" class="close-resulter">X</div>
+
+      <div class="head-resulter">
+        <p>How I Met Your Mother</p>
+      </div>
+
+      <div class="item-resulter">
+
+        <div class="sub-head">
+          <div class="vote-items">
+            <div class="vote-average">7.5</div>
+            <p>score</p>
+          </div>
+
+          <div class="date-ref">2005-09-19 / 2014-03-31</div>
+        </div>
+
+        <div class="genres-item">Action - Adventure - Animation - Family</div>
+
+        <div class="network-item">Network - CBS</div>
+
+        <div class="created-item">Created by - Carter Bays & Craig Thomas</div>
+
+        <div class="overview-item">
+          <p>Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.</p>
+        </div>
+
+        <a id="trailer-btn" href="#media-popup" class="btn-video">Trailer</a>
+
+        <div id="media-popup" class="popup">
+            <iframe src="https://www.youtube.com/embed/JlhveYg7h0k" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+
+
+  </body>
+</html>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script type="text/javascript" src="script/main.js"></script>
